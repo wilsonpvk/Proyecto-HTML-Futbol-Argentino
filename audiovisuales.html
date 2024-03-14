@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicons/favicon.ico" type="image/x-icon">
+    <title>Futbol Argentino</title>
+
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #04AA6D;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 33vw;
+        }
+
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .image {
+            float: right;
+            margin: 0 0 20px 20px;
+            max-width: 50%;
+            height: auto;
+        }
+
+        .image2 {
+            float: left;
+            margin: 0 20px 20px 0;
+            max-width: 50%;
+            height: auto;
+        }
+
+        .article {
+            float: left;
+            width: 70%;
+            background-color: #FFF;
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid #CCC;
+        }
+
+        .centrado {
+            display: flex;
+            justify-content: center;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Futbol Argentino</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="estadisticas.html">Estadísticas</a></li>
+                <li><a class="active" href="audiovisuales.html">Audiovisuales</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <br>
+
+    <div class="centrado">
+        <audio src="/assets/audio/The Hillbillies.mp3" autoplay controls></audio>
+    </div>
+
+    <br>
+
+    <h2 style="margin: 15px;">Jugadores destacados:</h2>
+
+    <hr>
+
+    <section class="container">
+
+        <div>
+            <video class="image2" src="/assets/video/Cavani.mp4" autoplay muted></video>
+            <p>
+                <b>Edinson Cavani</b> es un futbolista uruguayo que juega como delantero en Club Atlético 
+                <em>Boca Juniors</em> de la Primera División de Argentina. Pese a no haber empezado con el pie derecho en el cuadro
+                Xeneize con una larga sequía goleadora, nadie pone en tela de juicio su carrera y jerarquía futbolística
+                que se hace visible durante los partidos que disputa.
+            </p>
+            <img src="/assets/img/cavani.jpg" alt="Cavani" height="277">
+        </div>
+
+        <br>
+        <hr>
+
+        <div>
+            <video class="image" src="/assets/video/barco.mp4" autoplay muted></video>
+            <p>
+                <b>Esequiel Barco</b> es un futbolista argentino que juega como delantero/mediocampista en el Club Atlético
+                <em>River Plate</em>. El surgido en <em>Independiente</em> luego de un paso no tan exitoso por la Liga Estadounidense,
+                volvió a Argentina, específicamente al equipo de Nuñez, donde recuperó su nivel para convertirse
+                sin dudas en uno de los mejores jugadores del conjunto millonario.
+            </p>
+            <img src="/assets/img/barquinho2.jpg" alt="Barco" height="250">
+        </div>
+
+        <br>
+        <hr>
+
+        <div>
+            <video class="image2" src="/assets/video/quintero.mp4" autoplay muted></video>
+            <p>
+                <b>Juan Fernando Quintero</b> llegó a <em>Racing</em> a mediados de 2023 y sorprendió a más de uno. Es que el colombiano
+                está identificado con <em>River</em> y verlo con otra camiseta en el fútbol argentino resultó extraño en su
+                momento. Sin ir más lejos, el talentoso enganche habla del club de Núñez con mucho cariño cada vez que
+                es consultado y ese afecto es recíproco ya que los hinchas del Millonario también se lo demuestran,
+                sobre todo después de su inolvidable gol a Boca en la final de la Copa Libertadores disputada en el
+                Santiago Bernabéu de Madrid.
+                <br>
+                Tras su salida de <em>River</em>, Juanfer Quintero estuvo seis meses en Junior de Barranquilla y no fue un buen
+                paso. Entre lesiones y el mal andar del equipo, el mediocampista optó por salir a mediados de 2023 y su
+                destino fue <em>Racing</em>. El propio colombiano mantiene una extraordinaria relación con la dirigencia del
+                Millonario, sobre todo con Jorge Brito a quien llamó para contarle que volvía al fútbol argentino, pero
+                para jugar en <em>Racing</em>.
+                <br>
+                El jugador en cada partido que participa demuestra ser de los mejores del pais con su gran calidad
+                técnica,
+                deslumbrando con lujos, pases milimétricos y gambetas, en esta ocasión, al público académico.
+            </p>
+        </div>
+
+        <br>
+        <hr>
+
+        <div>
+            <video class="image" src="/assets/video/lopezmu.mp4" autoplay muted></video>
+            <p>
+                <b>Hernán López Muñoz</b> es un futbolista argentino. Juega como mediocampista y su actual equipo es <em>Godoy Cruz</em>
+                de la Primera División de Argentina de Argentina. Es sobrino nieto del recordado futbolista y entrenador
+                <a href="https://es.wikipedia.org/wiki/Diego_Maradona" target="_blank"><strong>Diego Armando Maradona</strong></a>.
+            </p>
+            <img src="/assets/img/lopezmuñoz.jpg" alt="lopezmuñoz" height="300">
+        </div>
+
+    </section>
+
+    <br>
+    <hr>
+
+    <section class="centrado">
+        <div class="gallery">
+            <a href="/assets/img/merentiel.jpg" target="_blank"><img src="/assets/img/merentiel.jpg" alt="Merentiel"
+                    height="400"></a>
+            <div class="desc">Merentiel, <em>Boca Juniors</em></div>
+        </div>
+        <div class="gallery">
+            <a href="/assets/img/armani.jpg" target="_blank"><img src="/assets/img/armani.jpg" alt="Armani"
+                    height="400"></a>
+            <div class="desc">Armani, River Plate</div>
+        </div>
+        <div class="gallery">
+            <a href="/assets/img/Avalos.jpg" target="_blank"><img src="/assets/img/Avalos.jpg" alt="Avalos"
+                    height="400"></a>
+            <div class="desc">Avalos, <em>Independiente</em></div>
+        </div>
+        <div class="gallery">
+            <a href="/assets/img/Enzo Perez.jpg" target="_blank"><img src="/assets/img/Enzo Perez.jpg" alt="Enzo Perez"
+                    height="400"></a>
+            <div class="desc">Enzo Perez, <em>Estudiantes de la plata</em></div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Derechos reservados &copy; 2024</p>
+    </footer>
+
+</body>
+
+</html>

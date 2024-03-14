@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicons/favicon.ico" type="image/x-icon">
+    <title>Futbol Argentino</title>
+
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #92a4ff;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 2px solid rgb(200, 200, 200);
+            letter-spacing: 1px;
+            font-size: 1.5rem;
+            background-color: #FFF;
+        }
+
+        td {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+        }
+
+        th {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+            background-color: rgb(162, 162, 162);
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Futbol Argentino</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="estadisticas.html">Estadísticas</a></li>
+                <li><a href="audiovisuales.html">Audiovisuales</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2 style="margin: 15px;">Estadísticas Copa de la Liga 2024</h2>
+    <hr>
+
+    <div class="container">
+        <table>
+            <colgroup>
+                <col style="background-color: rgb(131, 216, 152);">
+                <col>
+                <col>
+                <col>
+            </colgroup>
+
+            <th colspan="4">Goleadores</th>
+
+            <tr>
+                <th>Jugador</th>
+                <th>Equipo</th>
+                <th>Goles</th>
+                <th>(Penal)</th>
+            </tr>
+
+            <tr>
+                <td>M.Borja</td>
+                <td>River Plate</td>
+                <td>10</td>
+                <td>(0)</td>
+            </tr>
+            <tr>
+                <td>A. Martinez</td>
+                <td>Racing Club</td>
+                <td>7</td>
+                <td>(0)</td>
+            </tr>
+            <tr>
+                <td>J. Ramirez</td>
+                <td>Newells</td>
+                <td>7</td>
+                <td>(0)</td>
+            </tr>
+            <tr>
+                <td>A. Bareiro</td>
+                <td>San Lorenzo</td>
+                <td>5</td>
+                <td>(0)</td>
+            </tr>
+            <tr>
+                <td>A. Lescano</td>
+                <td>Argentinos Juniors</td>
+                <td>5</td>
+                <td>(0)</td>
+            </tr>
+            <tr>
+                <td>D. Puebla</td>
+                <td>Instituto</td>
+                <td>5</td>
+                <td>(2)</td>
+            </tr>
+            <tr>
+                <td>E. Cavani</td>
+                <td>Boca Juniors</td>
+                <td>4</td>
+                <td>(1)</td>
+            </tr>
+
+        </table>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="container">
+        <table>
+            <colgroup>
+                <col style="background-color: rgb(131, 216, 152);">
+                <col>
+                <col>
+                <col>
+            </colgroup>
+
+            <th colspan="3">Asistencias</th>
+
+            <tr>
+                <th>Jugador</th>
+                <th>Equipo</th>
+                <th>Asistencias</th>
+            </tr>
+
+            <tr>
+                <td>E. Barco</td>
+                <td>River Plate</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>G. Lodico</td>
+                <td>Instituto</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>J. Portilla</td>
+                <td>Talleres</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>N. Oroz</td>
+                <td>Argentinos Juniors</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>C. Aquino</td>
+                <td>Velez Sarsfield</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>A. Martino</td>
+                <td>Newells</td>
+                <td>3</td>
+            </tr>
+
+        </table>
+    </div>
+
+    <hr>
+
+    <footer class="footer">
+        <p>Derechos reservados &copy; 2024</p>
+    </footer>
+
+</body>
+
+</html>
